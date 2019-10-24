@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+  
+    <link rel="stylesheet" type="text/css" href="CSS.css"> 
+
+
+
+
+
+  
+</head>
+<body>
+    <div>
+
+<div id="MiddleImage" class="ImageClass"> <img class = "ImageSettings" src="https://ssl.gstatic.com/images/branding/googleg/2x/googleg_standard_color_64dp.png"  onclick="myFunctionMid()" /> 
+</div>
+ 
+ <div id="RightImage" class="ImageClass">
+ <img class = "ImageSettings" src="https://ssl.gstatic.com/images/branding/googleg/2x/googleg_standard_color_64dp.png" onclick="myFunctionRight()" /> 
+ </div>
+ 
+ </div>
+
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+
+
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: ""
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+</body>
+
+<footer>
+    <script src="JS.js"></script>
+</footer>
+
+</html>

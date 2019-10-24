@@ -1,0 +1,28 @@
+.ImageClass {
+    display: inline-block;
+     position: absolute;
+     bottom: 0%;
+     margin: 0;
+     margin-right: -50%;
+     
+ }
+ 
+ 
+ #MiddleImage{
+     background: green;
+     left: 50%;
+     transform: translate(-50%, -0%);
+     
+ }
+ 
+ #RightImage{
+     background: yellow;
+     left: 100%;
+     transform: translate(-100%, -0%);
+     
+ }
+ 
+ .ImageSettings{
+   height: 30vh;
+   }
+ 
