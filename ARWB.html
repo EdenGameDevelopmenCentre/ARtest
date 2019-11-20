@@ -34,25 +34,31 @@
                 <!--<a-box position='0 0.5 0' material='opacity: 0.5;'></a-box> -->
             
                 <!-- define your gltf asset -->
+                
                 <a-assets>
+                    
                     <a-asset-item id="duck" src="/glTF/duck/Duck.gltf" scale="0.1 0.1 0.1"></a-asset-item>
+                  
                 </a-assets>
                 <!-- use your gltf model -->
-                <a-entity scale="2 0.1 0.1" gltf-model="#duck"></a-entity>
+                
+                <a-entity id="ducky" scale="2 0.1 0.1" gltf-model="#duck"></a-entity>
+                
+                
 
                 <!-- define your gltf asset -->
                 <a-assets>
                     <a-asset-item id="brainstem" src="/glTF/brainstem/BrainStem.gltf"></a-asset-item>
                 </a-assets>
                 <!-- use your gltf model -->
-                <a-entity scale="0.1 1 0.1" gltf-model="#brainstem"></a-entity> 
+                <a-entity id="brainstem" scale="0.1 1 0.1" gltf-model="#brainstem"></a-entity> 
 
                 <!-- define your gltf asset -->
                 <a-assets>
                     <a-asset-item id="avocado" src="/glTF/avacado/Avocado.gltf" scale="0.1 0.1 0.1"></a-asset-item>
                 </a-assets>
                 <!-- use your gltf model -->
-                <a-entity scale="0.1 0.1 0.1" gltf-model="#avocado"></a-entity>
+                <a-entity id="avocado" scale="0.1 0.1 0.1" gltf-model="#avocado"></a-entity>
                 
                       
             
@@ -65,11 +71,11 @@
 
     <div>
 
-<div id="MiddleImage" class="ImageClass"> <img class = "ImageSettings" src="https://ssl.gstatic.com/images/branding/googleg/2x/googleg_standard_color_64dp.png"  onclick="myFunctionMid()" /> 
+<div id="MiddleImage" class="ImageClass"> <img class="ImageSettings" src="https://www.publicdomainpictures.net/pictures/200000/nahled/dragon-logo-symbol-silhouette.jpg"  onclick="myFunctionMid()" /> 
 </div>
  
  <div id="RightImage" class="ImageClass">
- <img class = "ImageSettings" src="https://ssl.gstatic.com/images/branding/googleg/2x/googleg_standard_color_64dp.png" onclick="myFunctionRight()" /> 
+ <img class = "ImageSettings" src="https://www.publicdomainpictures.net/pictures/200000/nahled/dragon-logo-symbol-silhouette.jpg" onclick="myFunctionRight()" /> 
  </div>
  
  </div>
