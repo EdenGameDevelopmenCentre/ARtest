@@ -40,5 +40,14 @@ function myFunctionRight(){
     console.log(badVarible)
     goodVarible.setAttribute('visible',true);
     console.log(goodVarible)
+    
+    
+    setTimeout(function(){ window.open("https://www.w3schools.com"); }, 5000);
+    
+    
+   
+   
+    
+    
 
     }
