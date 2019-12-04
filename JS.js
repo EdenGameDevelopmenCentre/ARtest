@@ -1,6 +1,7 @@
 var initialVarible = document.querySelector("#ducky")
 var badVarible = document.querySelector("#avocadoy")
 var goodVarible = document.querySelector("#brainstemy")
+var imageVarible = document.querySelector("#imagetest")
 
 
 function codeAddress() {
@@ -15,20 +16,13 @@ window.onload = codeAddress;
 function myFunctionMid(){
     alert("middle clicked");
     
-    
-    console.log(initialVarible)
-    if (initialVarible.getAttribute('visiblity') === 'true') {
       initialVarible.setAttribute('visible',false);
-      console.log("if")
-    } else {
-      initialVarible.setAttribute('visible',false);
-      console.log("else")
-
-
       badVarible.setAttribute('visible',true);
       goodVarible.setAttribute('visible',false);
-    }
-    console.log("button working")
+
+      imageVarible.setAttribute('visible',false);
+    
+    
     }
 
 function myFunctionRight(){
